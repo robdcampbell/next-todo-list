@@ -1,0 +1,20 @@
+
+
+1) npx create-next-app@latest .
+
+2) Installing prisma: 
+  npm i prisma --save-dev
+
+3) Initialize Prisma: 
+  npx prisma init --datasource-provider sqlite    
+
+4) Create model Schema (* todo schema)
+
+5) Migrate schema into database: 
+    npx prisma migrate dev --name init
+
+6) Add the following to .gitignore: 
+    .env
+    dev.db*
+
+7) 
