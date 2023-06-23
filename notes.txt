@@ -17,4 +17,7 @@
     .env
     dev.db*
 
-7) 
+7) *** ROUTING IN NeXT JS ***
+  - The way routing works in next.js 13, is the routes within the src/app
+    are reflected in that order (instead of using react-router-dom)
+    ie.: ...url.../new/page_example
